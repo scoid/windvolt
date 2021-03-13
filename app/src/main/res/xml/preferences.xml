@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ This file is part of windvolt.org.
+
+ Copyright (c) 2020 Max Sumer
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    tools:ignore="NamespaceTypo">
+
+    <PreferenceCategory app:title="@string/category_location">
+
+        <EditTextPreference
+            app:key="input_location"
+            app:selectAllOnFocus="true"
+            app:singleLine="false"
+            app:summary="@string/location_summary"
+            app:title="@string/location_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/category_devices">
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="updates"
+            app:summary="@string/updates_summary"
+            app:title="@string/updates_title" />
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:enabled="false"
+            app:key="notifications"
+            app:summary="@string/notifications_summary"
+            app:title="@string/notifications_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

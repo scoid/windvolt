@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <shape
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:innerRadius="5dp" android:thickness="13dp"
+            android:shape="ring"
+            android:useLevel="false">
+
+            <stroke
+                android:width="4dp"
+                android:color="@color/white" />
+
+            <gradient
+                android:type="sweep"
+                android:angle="360"
+                android:startColor="@color/orange"
+                android:centerColor="@color/colorAccent"
+                android:endColor="@color/darkblue" />
+        </shape>
+    </item>
+
+</layer-list>
+
+

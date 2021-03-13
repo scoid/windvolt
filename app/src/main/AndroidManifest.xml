@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.windvolt"
+    android:versionCode="103"
+    android:versionName="V1.03">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".diagram.WhoIsWho"></activity>
+        <activity android:name=".diagram.BusinessModel" />
+        <activity android:name=".system.DeviceList" />
+        <activity android:name=".system.DeviceManagement" />
+        <activity android:name=".system.About" />
+        <activity android:name=".system.Settings" />
+        <activity android:name=".story.StoryOfWindvolt" />
+        <activity
+            android:name=".ActivityMain"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

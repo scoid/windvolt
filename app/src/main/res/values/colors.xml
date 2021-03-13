@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ This file is part of windvolt.org.
+
+ Copyright (c) 2020 Max Sumer
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <color name="colorAccent">#008577</color>
+    <color name="colorPrimary">#0277BD</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#FF8F00</color>
+    <color name="lightblue">#A8C7DA</color>
+    <color name="blue">#1565C0</color>
+    <color name="darkblue">#1834E4</color>
+
+
+    <color name="red_pure">#D81B60</color>
+    <color name="red_100">#F44336</color>
+    <color name="red_300">#3F51B5</color>
+    <color name="red_500">#9C27B0</color>
+    <color name="red_700">#2196F3</color>
+    <color name="blue_100">#00BCD4</color>
+    <color name="blue_300">#7BAAF7</color>
+    <color name="blue_500">#009688</color>
+    <color name="blue_700">#3367D6</color>
+    <color name="green_100">#CDDC39</color>
+    <color name="green_300">#57BB8A</color>
+    <color name="green_500">#673AB7</color>
+    <color name="green_700">#0B8043</color>
+</resources>

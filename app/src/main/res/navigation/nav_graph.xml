@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/page_welcome">
+
+    <!-- welcome -->
+    <fragment
+        android:id="@+id/page_welcome"
+        android:name="org.windvolt.Welcome"
+        android:label="@string/welcome_label"
+        tools:layout="@layout/welcome">
+
+        <action
+            android:id="@+id/action_open_wind"
+            app:destination="@id/page_wind" />
+
+        <action
+            android:id="@+id/action_open_solar"
+            app:destination="@id/page_solar" />
+
+        <action
+            android:id="@+id/action_open_geo"
+            app:destination="@id/page_geo" />
+
+        <action
+            android:id="@+id/action_open_neutron"
+            app:destination="@id/page_neutron" />
+    </fragment>
+
+
+    <!-- wind -->
+    <fragment
+        android:id="@+id/page_wind"
+        android:name="org.windvolt.pages.Page0"
+        android:label="@string/page0_label"
+        tools:layout="@layout/page0">
+
+        <action
+            android:id="@+id/action_exit_wind"
+            app:destination="@id/page_welcome" />
+    </fragment>
+
+    <!-- solar -->
+    <fragment
+        android:id="@+id/page_solar"
+        android:name="org.windvolt.pages.Page1"
+        android:label="@string/page1_label"
+        tools:layout="@layout/page1">
+
+        <action
+            android:id="@+id/action_exit_solar"
+            app:destination="@id/page_welcome" />
+    </fragment>
+
+    <!-- neutron -->
+    <fragment
+        android:id="@+id/page_geo"
+        android:name="org.windvolt.pages.Page2"
+        android:label="@string/page2_label"
+        tools:layout="@layout/page2">
+
+        <action
+            android:id="@+id/action_exit_geo"
+            app:destination="@id/page_welcome" />
+    </fragment>
+
+    <!-- neutron -->
+    <fragment
+        android:id="@+id/page_neutron"
+        android:name="org.windvolt.pages.Page3"
+        android:label="@string/page3_label"
+        tools:layout="@layout/page3">
+
+        <action
+            android:id="@+id/action_exit_neutron"
+            app:destination="@id/page_welcome" />
+    </fragment>
+
+</navigation>
