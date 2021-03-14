@@ -1,8 +1,5 @@
 # Introduction
 
-/*
-d30e663b6d14c2688644cea284d300f685c81a31
-*/
 
 windvolt für Deutschland, (©) 2020 Max Sumer
 
