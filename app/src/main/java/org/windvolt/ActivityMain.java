@@ -33,6 +33,10 @@ import org.windvolt.story.StoryOfWindvolt;
 
 public class ActivityMain extends AppCompatActivity {
 
+    /*
+    4d7f29f07267c0a853d1a8305a4ca66bf30858f7
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
