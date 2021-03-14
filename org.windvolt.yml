@@ -4,8 +4,8 @@ License: GPL-3.0-only
 AuthorName: Max Sumer
 AuthorEmail: muzsuna@gmail.com
 AuthorWebSite: http://windvolt.org/
-SourceCode: https://gitlab.com/muzsuna/windvolt
-IssueTracker: https://gitlab.com/muzsuna/windvolt/issues
+SourceCode: https://github.com/MuzSumer/windvolt
+IssueTracker: https://gitlab.com/MuzSumer/windvolt/issues
 
 AutoName: windvolt
 Summary: Strategische Nutzung Ernuerbarer Energie
@@ -14,7 +14,7 @@ Description: |-
   Strategische Nutzung Ernuerbarer Energie, insbesondere aus Wind
 
 RepoType: git
-Repo: https://gitlab.com/muzsuna/windvolt.git
+Repo: https://github.com/MuzSumer/windvolt
 
 Builds:
   - versionName: '1.03'
