@@ -1,1 +1,4 @@
-strategic usage of renewable energy, especially windpower
+<i>windvolt</i> targets the usage and pricing of renewable energy in Germany, especially windpower.
+
+<i>Windvolt</i> will recommend loading your devices like smartphone, e-bike or e-car when there is plenty of renewable energy harvested.
+
