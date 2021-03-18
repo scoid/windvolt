@@ -47,9 +47,9 @@ public class XMLDeviceStore {
     final String ns = null;
     static String xml_file = "devices.xml";
 
-    Context devices_context = null;
+    Context devices_context;
 
-    List<DeviceModel> deviceStore = new ArrayList();
+    List<DeviceModel> deviceStore = new ArrayList<>();
 
     private ArrayAdapter ListViewAdapter = null;
 
@@ -191,8 +191,8 @@ public class XMLDeviceStore {
             NodeList devices = root.getElementsByTagName("device");
             int size = devices.getLength();
 
-            for (int l=0; l<size; l++) {
-                Node device = devices.item(l);
+            for (int position=0; position<size; position++) {
+                Node device = devices.item(position);
 
                 if (device.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) device;
@@ -233,8 +233,8 @@ public class XMLDeviceStore {
             document.appendChild(root);
 
             int size = deviceStore.size();
-            for (int l=0; l<size; l++) {
-                DeviceModel deviceModel = deviceStore.get(l);
+            for (int position=0; position<size; position++) {
+                DeviceModel deviceModel = deviceStore.get(position);
 
                 // create device
                 Element device = document.createElement("device");
@@ -245,7 +245,6 @@ public class XMLDeviceStore {
                 Element name = document.createElement("name");
                 name.appendChild(document.createTextNode(deviceModel.getName()));
                 device.appendChild(name);
-
 
                 Element type = document.createElement("type");
                 type.appendChild(document.createTextNode(deviceModel.getType()));
@@ -284,6 +283,7 @@ public class XMLDeviceStore {
 
         if (isUpdateAllowed()) {
             // TODO update online catalog
+            
         }
 
         return true;
