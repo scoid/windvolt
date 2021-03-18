@@ -283,7 +283,7 @@ public class XMLDeviceStore {
 
         if (isUpdateAllowed()) {
             // TODO update online catalog
-            
+
         }
 
         return true;
