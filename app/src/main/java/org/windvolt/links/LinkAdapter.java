@@ -39,16 +39,16 @@ public class LinkAdapter extends RecyclerView.Adapter<LinkAdapter.LinkViewHolder
     private List<Link> links = new ArrayList();
 
     public LinkAdapter() {
-        links.add(new Link("Livedaten der Netzagentur", "http://www.smard.de", R.drawable.logo_smard));
-        links.add(new Link("Nachrichten und Daten", "http://www.windjournal.de", R.drawable.logo_windjournal));
-        links.add(new Link("BMWE Energiewende", "http://www.erneuerbare-energien.de", R.drawable.logo_energiewende));
-        links.add(new Link("Windkraft beim Umweltamt", "http://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/windenergie", R.drawable.logo_umweltamt));
-        links.add(new Link("Verband Windenergie", "http://www.wind-energie.de", R.drawable.logo_windverband));
-        links.add(new Link("Windbranche", "http://www.windbranche.de/wind/windstrom/windenergie-deutschland", R.drawable.logo_windbranche));
-        links.add(new Link("ENTSO-E Transparenzplattform", "http://www.netztransparenz.de/Weitere-Veroeffentlichungen/Windenergie-Hochrechnung", R.drawable.logo_netztransparenz));
+        links.add(new Link("Livedaten der Netzagentur", "https://www.smard.de", R.drawable.logo_smard));
+        links.add(new Link("Nachrichten (viele Tracker)", "https://www.windjournal.de", R.drawable.logo_windjournal));
+        links.add(new Link("BMWE Energiewende", "https://www.erneuerbare-energien.de", R.drawable.logo_energiewende));
+        links.add(new Link("Windkraft beim Umweltamt", "https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/windenergie", R.drawable.logo_umweltamt));
+        links.add(new Link("Verband Windenergie", "https://www.wind-energie.de", R.drawable.logo_windverband));
+        links.add(new Link("Windbranche", "https://www.windbranche.de/wind/windstrom/windenergie-deutschland", R.drawable.logo_windbranche));
+        links.add(new Link("ENTSO-E Transparenzplattform", "https://www.netztransparenz.de/Weitere-Veroeffentlichungen/Windenergie-Hochrechnung", R.drawable.logo_netztransparenz));
+
+        // no https for bricklebrit
         links.add(new Link("Strombörse EEX Spotpreise", "http://bricklebrit.com/stromboerse_leipzig.html", R.drawable.logo_bricklebrit));
-
-
     }
 
 

@@ -24,7 +24,7 @@
     <string name="welcome_html">
         <![CDATA[
         <br />
-            <img src="http://www.windjournal.de/einspeisung-live.php?w=320&h=160"/>
+            <img src="https://www.windjournal.de/einspeisung-live.php?w=320&h=160"/>
             <small>    Quelle: windjournal.de, ohne Gewähr </small>
         ]]>
     </string>
