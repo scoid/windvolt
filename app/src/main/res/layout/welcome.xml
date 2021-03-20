@@ -111,7 +111,7 @@
     <WebView
         android:id="@+id/welcome_widget"
         android:layout_width="320dp"
-        android:layout_height="160dp"
+        android:layout_height="164dp"
         app:layout_constraintBottom_toTopOf="@id/recommend_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

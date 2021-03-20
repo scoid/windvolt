@@ -48,7 +48,7 @@ public class LinkAdapter extends RecyclerView.Adapter<LinkAdapter.LinkViewHolder
         links.add(new Link("ENTSO-E Transparenzplattform", "https://www.netztransparenz.de/Weitere-Veroeffentlichungen/Windenergie-Hochrechnung", R.drawable.logo_netztransparenz));
 
         // no https for bricklebrit
-        links.add(new Link("Strombörse EEX Spotpreise", "http://bricklebrit.com/stromboerse_leipzig.html", R.drawable.logo_bricklebrit));
+        links.add(new Link("Strombörse EEX (kein https)", "http://bricklebrit.com/stromboerse_leipzig.html", R.drawable.logo_bricklebrit));
     }
 
 
@@ -81,7 +81,6 @@ public class LinkAdapter extends RecyclerView.Adapter<LinkAdapter.LinkViewHolder
 
     @Override
     public int getItemCount() { return links.size(); }
-
 
 
 
