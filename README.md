@@ -6,7 +6,9 @@ windvolt für Deutschland, (©) 2020 Max Sumer
 - Application Name: "windvolt"
 - [windvolt.org](windvolt/app/)
 
-
+[<img src="https://f-droid.org/badge/get-it-on.png"
+      alt="Get it on F-Droid"
+      height="80">](https://f-droid.org/packages/org.windvolt/)
 
 # Getting started
 
